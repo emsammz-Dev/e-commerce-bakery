@@ -22,7 +22,7 @@ export default function OpenSideNav() {
             onClick={() => dispatch(invisible())}
           />
           <Link href="/" className="border-r-2 rounded-lg pr-2">
-            <p className="text-nowrap">Baker's Edge</p>
+            <p className="text-nowrap">Baker&apos;s Edge</p>
           </Link>
         </div>
         <div className="flex flex-col gap-6 opacity-40">

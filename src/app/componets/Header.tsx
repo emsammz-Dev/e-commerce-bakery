@@ -40,7 +40,7 @@ export default function TopHeader() {
               />
             </div>
             <Link href="/" className="font-bold text-xl">
-              <div>Baker's Edge</div>
+              <div>Baker&apos;s Edge</div>
             </Link>
           </div>
 
@@ -135,7 +135,7 @@ export default function TopHeader() {
               onClick={() => dispatch(visible())}
             />
             <Link href="/">
-              <p className="text-nowrap">Baker's Edge</p>
+              <p className="text-nowrap">Baker&apos;s Edge</p>
             </Link>
           </div>
 

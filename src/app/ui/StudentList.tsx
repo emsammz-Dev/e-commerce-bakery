@@ -25,11 +25,11 @@ export default function StudentList() {
             <tr>
               <td>Roll No</td>
               <td>Name</td>
-              <td>1's </td>
-              <td>2's </td>
-              <td>4's </td>
-              <td>4's </td>
-              <td>Today's Attendance</td>
+              <td>1 </td>
+              <td>2 </td>
+              <td>4 </td>
+              <td>4 </td>
+              <td>Attendance</td>
             </tr>
           </thead>
           <tbody className="divide-y-2">
