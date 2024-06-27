@@ -1,0 +1,2 @@
+1.for image so set priority
+Largest Contentful Paint (LCP) measures the render time of the largest image or text block visible in the viewport, relative to when the user first navigated to the page1. In other words, it represents how long it takes for the main content (usually an image or text) to load and be visible on the screen. To provide a good user experience, aim for an LCP of 2.5 seconds or less1. Prioritizing the loading of this largest content can help improve overall page experience. 😊
