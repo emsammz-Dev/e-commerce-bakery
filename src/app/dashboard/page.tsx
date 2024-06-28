@@ -1,9 +1,5 @@
-import createProduct from "@/actions/createProduct";
-import prisma from "@/db/prismadb";
 import Image from "next/image";
 export default async function Dashboard() {
-  const products = await prisma.product.findMany();
-  console.log(products);
   return (
     <>
       <div className="flex mt-8 p-8">
@@ -14,7 +10,7 @@ export default async function Dashboard() {
           illum sequi. Similique!
         </div>
 
-        <form action={createProduct} className="max-sm:mt-14 w-[300px]">
+        <form className="max-sm:mt-14 w-[300px]">
           <div className="flex flex-col gap-2 ">
             <h1 className="text-center">Create Product Item</h1>
 
